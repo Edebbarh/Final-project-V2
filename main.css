@@ -1,0 +1,144 @@
+.spacer{
+    background-color: white;
+}
+.menu-4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: -50px;
+    
+    ;
+  }
+  .menu-4 * {
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  .menu-4 li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0 1.5em;
+    overflow: hidden;
+    
+  }
+  .menu-4 a {
+    padding: 0.3em 0;
+    color: #212121;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 1px;
+    margin: 0;
+    text-decoration: none;
+  }
+  .menu-4 a:before,
+  .menu-4 a:after {
+    position: absolute;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  .menu-4 a:before {
+    bottom: 100%;
+    display: block;
+    height: 3px;
+    width: 100%;
+    content: "";
+    background-color: #e67e22;
+  }
+  .menu-4 a:after {
+    padding: 0.3em 0;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    content: attr(data-hover);
+    color: #212121;
+    white-space: nowrap;
+  }
+  .menu-4 li:hover a,
+  .menu-4 .current a {
+    transform: translateY(100%);
+  }
+ .text {
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .img {
+    background-image:url(images/giphy.2.gif); 
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: 87% 60%;
+    
+ }
+ .çamarche {
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.myli {
+  list-style-type: none;
+  max-width: 90rem;
+  border: 0px solid #666;
+  padding-left: 0.2rem;
+  
+}
+.liste {
+  padding: 0.6rem;
+  counter-increment: list;
+  border-left: 10%;
+  margin-left: 37%;
+}
+
+.liste::before {
+  content: counter(list);
+  border: 2px solid #e67e22;
+  background-color: #e67e22;
+  border-radius: 48%;
+  margin-right: 0.9rem; 
+  padding: 0.2rem 0.5rem;
+}
+.back{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-image:url(images/pcmac.1.png); 
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: 84% 47%;
+}
+.bouton a {
+  display:block;
+  width:150px;
+  line-height:50px;
+  text-align:center;
+  vertical-align:middle;
+  background:url(images/boutonnoir.png) no-repeat;
+  color:white;
+  text-decoration:none;
+  }
+  .bouton a:hover {
+  background:url(images/boutonnoir2.png) no-repeat;
+  }
+
+  .footer{
+  	margin: 0;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .95em;
+	position: absolute;
+	bottom:-180%;
+	width: 100%;
+	background-color: white ;
+	display: flex;
+	justify-content: space-evenly; 
+	align-items: top;	
+  margin-bottom: 0%;
+}
+
+.footer-info{
+	margin-bottom: 0px;
+	padding: -400px;
+}
+
+
+.footer-nav-list{
+	list-style-type: none;
+	margin-top: 10px;
+	padding: 0;
+}
+
+
